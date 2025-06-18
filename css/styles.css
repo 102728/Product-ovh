@@ -278,3 +278,24 @@ footer {
     object-fit: cover;
     width: 100%;
 }
+
+.social-links a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: 1.1rem;
+}
+
+.social-links a:hover {
+    color: var(--primary-color) !important;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+    filter: brightness(0) invert(1);
+    transition: filter 0.3s ease;
+}
+
+.social-links a:hover .social-icon {
+    filter: brightness(0) invert(1) sepia(1) saturate(3) hue-rotate(160deg) brightness(1.2);
+}
