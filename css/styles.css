@@ -49,12 +49,11 @@ body {
 }
 
 .hero-logo {
-    max-width: 300px;
+    max-width: 500px;
     filter: drop-shadow(0 10px 30px rgba(0, 0, 0, 0.2));
 }
 
 .features-section {
-    background: rgba(255, 255, 255, 0.7);
     backdrop-filter: blur(10px);
 }
 
@@ -110,17 +109,24 @@ body {
 }
 
 .page-header {
-    background: linear-gradient(135deg, var(--primary-color), var(--accent-warm));
-    color: var(--light-color);
+    /* background: linear-gradient(135deg, var(--primary-color), var(--accent-warm)); */
+    background-color: rgba(0, 0, 0, 0);
+    color: var(--dark-color);
     padding: 100px 0 50px;
     margin-top: 0;
 }
 
 .content-section {
     padding: 50px 40px;
+    /* background: rgba(255, 255, 255, 0.9); */
+    /* backdrop-filter: blur(10px); */
+    background-color: rgba(0, 0, 0, 0);
+    margin: 20px 0;
+}
+
+#about-content-section {
     background: rgba(255, 255, 255, 0.9);
     backdrop-filter: blur(10px);
-    margin: 20px 0;
 }
 
 .competitor-card {
@@ -137,7 +143,7 @@ body {
 }
 
 .about-section {
-    background: rgba(212, 249, 253, 0.3);
+    background: rgba(0, 0, 0, 0);
     padding: 80px 0;
 }
 
@@ -255,13 +261,9 @@ footer {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.product-showcase {
-    background: rgba(234, 158, 141, 0.1);
-}
+.product-showcase {}
 
-.lifestyle-section {
-    background: rgba(212, 249, 253, 0.2);
-}
+.lifestyle-section {}
 
 .lifestyle-card {
     background: white;
@@ -270,7 +272,7 @@ footer {
 
 .lifestyle-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 40px rgba(89, 200, 227, 0.3) !important;
+    box-shadow: 0 15px 40px rgba(68, 68, 68, 0.3) !important;
 }
 
 .lifestyle-card img {
@@ -298,4 +300,16 @@ footer {
 
 .social-links a:hover .social-icon {
     filter: brightness(0) invert(1) sepia(1) saturate(3) hue-rotate(160deg) brightness(1.2);
+}
+
+.link {
+    color: var(--primary-color) !important;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.link:hover {
+    color: var(--accent-strong) !important;
+    text-decoration: underline;
 }
