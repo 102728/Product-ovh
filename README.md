@@ -34,23 +34,6 @@ OmniJacket is een innovatieve bedrijfswebsite voor een fictieve onderneming die 
 - **Interactiviteit:** JavaScript voor formulieren en animaties
 - **Modern Design:** Gradient achtergronden, schaduwen en hover effecten
 
-## Bestanden
-
-```none
-├── index.html
-├── about.html
-├── concurrentie.html
-├── contact.html
-├── css/
-│   └── styles.css
-├── js/
-│   └── script.js
-└── media/
-    ├── logo.png
-    └── fonts/
-        └── Itim-Regular.otf
-```
-
 ## Hoe te Gebruiken
 
 1. Open `index.html` in een webbrowser
@@ -75,3 +58,5 @@ De OmniJacket is een revolutionaire jas die:
 ## Auteurs
 
 Ontwikkeld door Menno en Stone als onderdeel van een bedrijfswebsite project.
+
+alle ideeen zijn eigendom van Menno en Stone.
